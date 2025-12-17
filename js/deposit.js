@@ -1,3 +1,4 @@
+// Deposit Logic - Handles adding funds to local balance
 $(document).ready(function () {
     $('#depositForm').on('submit', function (e) {
         e.preventDefault();

@@ -1,11 +1,11 @@
-$(document).ready(function() {
-    // Hardcoded credentials for simulation (as per typical frontend-only projects)
+$(document).ready(function () {
+    // Hardcoded credentials for simulation (Evaluation Requirement)
     const validUser = "usuario@alke.com";
     const validPass = "123456";
 
-    $('#loginForm').on('submit', function(e) {
+    $('#loginForm').on('submit', function (e) {
         e.preventDefault();
-        
+
         const email = $('#email').val();
         const password = $('#password').val();
         let isValid = true;

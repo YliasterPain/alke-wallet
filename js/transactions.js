@@ -1,3 +1,4 @@
+// Transactions Logic - Handles history display
 $(document).ready(function () {
     function loadTransactions() {
         const container = $('#allTransactions');
