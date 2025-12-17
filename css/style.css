@@ -1,0 +1,67 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+:root {
+    --primary-color: #0d6efd; /* Bootstrap Primary Blue */
+    --secondary-color: #6c757d;
+    --accent-color: #0dcaf0;
+    --dark-bg: #1e2125;
+    --light-bg: #f8f9fa;
+    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--light-bg);
+    color: #333;
+}
+
+/* Auth Pages (Login) */
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #0d6efd 0%, #0099ff 100%);
+}
+
+.auth-card {
+    background: white;
+    border-radius: 12px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.brand-logo {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.brand-logo i {
+    font-size: 3rem;
+}
+
+.form-floating input:focus {
+    box-shadow: none;
+    border-color: var(--primary-color);
+}
+
+.btn-login {
+    width: 100%;
+    padding: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+/* Animations */
+.fade-in {
+    animation: fadeIn 0.8s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
