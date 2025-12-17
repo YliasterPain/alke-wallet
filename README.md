@@ -2,7 +2,7 @@
 
 ## Tecnologías
 - HTML5
-- CSS3 (Diseño Responsivo)
+- CSS (Diseño Responsivo)
 - Bootstrap 5
 - JavaScript
 - JQuery
