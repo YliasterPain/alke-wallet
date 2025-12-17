@@ -4,7 +4,7 @@
 - HTML5
 - CSS3 (Diseño Responsivo)
 - Bootstrap 5
-- JavaScript (ES6)
+- JavaScript
 - JQuery
 
 ##  Uso
